@@ -28,9 +28,9 @@ int X;
 int main()
 { 
   // test array
-int arr[]={3,4,6};
+int arr[]={20,8,6};
   // size of array 
-int n=sizeof(faveNumbers/sizeof(faveNumbers));
+int n=sizeof(arr)/sizeof(arr[0]);
 tri_selection_ite(arr,n);
   return 0;
 }
